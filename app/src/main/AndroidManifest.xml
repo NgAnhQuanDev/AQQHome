@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/logoaqqhome"
+        android:label="AQQHome"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/htc_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AQQHome"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label,android:theme"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.admin.ThongBaoMoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ThemCongViecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.CongViecDinhKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.PhanAnh.AdminXemPhanAnhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.CongviecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivityDichvu.NgonNguActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ThongKeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.CapNhapThongTinQuanLyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.CapNhapThongTinChuSoHuuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ActivityDichvu.CapNhapDichVuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ActivityDichvu.KhacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivityDichvu.QuanlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivityDichvu.VesinhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivityDichvu.NuocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivityDichvu.GuixeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivityDichvu.DienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.ChonChungCuPheDuyetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.AdminChiTietDichVu"
+            android:exported="true" />
+        <activity
+            android:name=".ui.auth.UserXemPheDuyetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.ChangePassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.XemPheDuyetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.Gopy2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.GopyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.PheDuyet2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.ThanhToanXongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.PheDuyetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.order.DetailChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.AvatarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.order.HotlineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.order.HoadonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.NewmesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.order.NewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.AddRoomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.QuyChungCuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.payment.LichsunapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.Admin_XemthongtinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.Admin_SuachiphiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.payment.ThanhToanActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="app"
+                    android:scheme="demozpdkk" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.user.LoadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.QuanLyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ChiTietCanHoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.payment.MoneyActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="app"
+                    android:scheme="demozpdk" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.user.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.payment.BillActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.user.NewCodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.user.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.user.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.auth.SignupActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

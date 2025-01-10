@@ -1,0 +1,110 @@
+<!-- File: bottom_sheet_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_close_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="  Nạp tiền"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e4e4e4" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/radio_zalopay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    ZaloPay"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/zalopayy"
+            android:drawablePadding="8dp"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="(Phí tiện ích: 10.000đ)"
+            android:textSize="14sp" />
+        <RadioButton
+            android:id="@+id/radio_momo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="    Momo"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/momoo"
+            android:drawablePadding="8dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="(Phí tiện ích: 10.000đ)"
+            android:textSize="14sp" />
+
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_border"
+        android:entries="@array/amounts" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_topup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:text="Nạp tiền"
+        style="@style/Widget.MaterialComponents.Button">
+    </com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>

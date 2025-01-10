@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/logoaqqhome"
+        android:background="@drawable/circle_background" />
+    <TextView
+        android:id="@+id/socanho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="14-01"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text=" - "
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/tentoanha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Trương Đình hội"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/baseline_done_24" />
+
+</LinearLayout>

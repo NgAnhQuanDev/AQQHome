@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/toanha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tòa Nhà: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/diachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa Chỉ: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/sotang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số Tầng: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/hotline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotline: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/tencanho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên Căn Hộ: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/dientich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diện Tích: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/tang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tầng: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+</ScrollView>

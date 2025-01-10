@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/NaviBottomTrangchu"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/bangtin"
+        android:title="@string/NaviBottomgiaotiep"
+        android:icon="@drawable/baseline_feed_24"/>
+
+
+
+    <item
+        android:id="@+id/thongbao"
+        android:title="@string/NaviBottomthongbao"
+        android:icon="@drawable/baseline_notifications_24"/>
+
+    <item
+        android:id="@+id/caidat"
+        android:title="@string/NaviBottomcaidat"
+        android:icon="@drawable/baseline_settings_24"/>
+
+</menu>

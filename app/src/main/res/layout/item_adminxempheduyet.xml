@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FCE4EC"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idpheduyet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FCE4EC"
+                android:fontFamily="@font/roboto"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:text="Phê duyệt #23823293"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/kichhoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text=""
+                android:textColor="#4CAF50" />
+
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/baseline_arrow_drop_down_24_black">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Người gửi: Nguyễn Văn A">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/roomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phòng: 14-01"></TextView>
+
+
+        <TextView
+            android:id="@+id/tang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tầng: 9457">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/mahopdong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã hợp đồng">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Ngày gửi: 30/10/2023"
+            android:textSize="13sp" />
+
+
+
+        <TextView
+            android:id="@+id/macode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã code: "
+
+            android:textColor="#F44336"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_tuchoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Từ chối"
+                android:visibility="gone"></com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_duyet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:text="Duyệt"
+                android:visibility="gone">
+            </com.google.android.material.button.MaterialButton>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

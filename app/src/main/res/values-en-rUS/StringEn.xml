@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AQQHome</string>
+    <string name="Hoadon">Invoice</string>
+    <string name="Thongbao">Notifications</string>
+    <string name="Bangtin">News</string>
+    <string name="Caidat">Settings</string>
+    <string name="Thongtinphienban">Version Information</string>
+    <string name="Thongtin">Information</string>
+    <string name="Dangxuat">Log Out</string>
+    <string name="Dangnhap">Log In</string>
+    <string name="Dangky">Sign Up</string>
+    <string name="Dangnhapthanhcong">Login Successful</string>
+    <string name="hintdangnhap">Email or Phone Number</string>
+    <string name="hintmatkhau">Password</string>
+    <string name="taotaikhoan">Create Account</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="HomeFragmentThanhtoan">Payment</string>
+    <string name="HomefragmentViAQQPay">AQQPAY Wallet</string>
+    <string name="HomefragmentPhananh">Feedback</string>
+    <string name="Homefragmenttienich">Utilities\n</string>
+    <string name="Homefragmentlienhe">Contact\n</string>
+    <string name="Homefragmentshop">Shop\n</string>
+    <string name="Homefragmentdatphongks">Hotel\nBooking</string>
+    <string name="HomefragmentTiendien">Electricity Bill\n</string>
+    <string name="Homefragmentnaptiendt">Mobile\nRecharge</string>
+    <string name="Homefragmenthoadonth">TV Bill\n</string>
+    <string name="Homefragmentthanhvien">- Member</string>
+
+
+    <string name="NaviBottomTrangchu">Home</string>
+    <string name="NaviBottomgiaotiep">Communication</string>
+    <string name="NaviBottomthongbao">Notifications</string>
+    <string name="NaviBottomcaidat">Settings</string>
+    <string name="FragmentCaidatThanhvien">Member</string>
+    <string name="FragmentCaidatThanhvientcch">Apartment Information</string>
+    <string name="FragmentCaidatsotay">Resident Handbook</string>
+    <string name="FragmentCaidatthongtintk">Account Information</string>
+    <string name="FragmentCaidattdnn">Change Language</string>
+    <string name="FragmentCaidatcauhoi">FAQs</string>
+    <string name="FragmentCaidatdieukhoan">Terms and Conditions</string>
+    <string name="FragmentCaidatdangxuat">Log Out</string>
+    <string name="FragmentCaidatphienban">Version 1.0</string>
+    <string name="FragmentCaidatthongtincch">Apartment Information</string>
+    <string name="ngonnguactivitytitle">Change Language</string>
+    <string name="ngonnguactivitytiengviet">Vietnamese</string>
+
+
+</resources>

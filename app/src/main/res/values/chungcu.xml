@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="chungcu">
+        <item>Vui lòng chọn tên chung cư          ◣</item>
+        <item>Chung cư Trương Đình Hội</item>
+        <item>Chung cư Sài gòn</item>
+        <item>Chung cư Bình Dương</item>
+    </string-array>
+</resources>

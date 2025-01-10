@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="yellow"    >#FFf1c40f</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+    <color name="orange">#FFA500</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#3D64FF</color>
+    <color name="purple">#6917E5</color>
+    <color name="grey">#EFF0FC</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">#ffcdd8ec</color>
+    <color name="controlBackground">#ffffffff</color>
+    <color name="colorPrimary">#813fd7</color>
+    <color name="separatorColor">#9C9393</color>
+    <color name="notseen">#CACEF1</color>
+    <color name="buttonColor">#FF4081</color> <!-- Ví dụ màu cho nút, bạn có thể thay đổi theo ý của mình -->
+
+
+
+    <color name="_bg__notifications_color">#F1F4F5</color>
+    <color name="_bg__frame_147_ek1_color">#000000</color>
+    <color name="new_color">#99A1BE</color>
+    <color name="_bg__frame_143_ek1_color">#FFFFFF</color>
+    <color name="ellipse_70_color">#39CA5B</color>
+    <color name="landon_bloom_and_emilia_harcourt_also_commented_on_anna_delvey_s_post_color">#2D3F7B</color>
+    <color name="about_an_hour_ago_color">#1877F2</color>
+    <color name="border_color">#ffffff</color>
+
+
+
+    <color name="color_one">#fb7268</color>
+    <color name="color_white">#ededf2</color>
+    <color name="color_two">#E3E0E0</color>
+
+    <color name="R">#FFA726</color>
+    <color name="Python">#66BB6A</color>
+    <color name="CPP">#EF5350</color>
+    <color name="Java">#29B6F6</color>
+</resources>
